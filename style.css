@@ -1,6 +1,11 @@
+:root{
+    --primaty-color:#808b97;
+}
+
+
 body{
     text-align: center;
-    background-color: rgb(169, 169, 169);
+    background-color: rgb(231, 227, 227);
 }
     
 h1{
@@ -22,7 +27,7 @@ p{
 .links a {
   margin: 20px;
   padding: 20px 15px;
-  color: blueviolet;
+  color: var(--primaty-color);
 }
 
 img{
@@ -30,5 +35,5 @@ img{
 }
 
 .contact_us{
-    color: blueviolet;
+    color: var(--primaty-color);
 }
